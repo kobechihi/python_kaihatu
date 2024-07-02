@@ -14,6 +14,7 @@ def merge_images(background_image, overlay_image, overlay_scale, overlay_positio
        overlay_image (PIL.Image.Image): 重ねる画像
        overlay_scale (float): 重ねる画像のサイズ倍率
        overlay_position (tuple): 重ねる画像の左上の座標 (x, y)
+       
    Returns:
        PIL.Image.Image: 合成された画像
    """
